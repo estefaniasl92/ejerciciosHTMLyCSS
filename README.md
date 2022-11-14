@@ -1,2 +1,4 @@
 # ejerciciosHTMLyCSS
-Repositorio para los ejercicios de HTML y CSS del módulo Lenguajes de Marcas
+##Repositorio de Estefanía
+Repositorio para los ejercicios de Marcas
+
