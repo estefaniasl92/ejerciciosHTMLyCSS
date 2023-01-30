@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab:wght@300&display=swap');
+
+body{
+    background-color:  #FBEAEA;
+    font-family: 'Roboto Slab', serif;
+    text-align: justify;
+}
+h1{
+    background-color: #FF0000;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+h2{
+    background-color: #EE3A1F;
+    color: white;
+}
+h3{
+    
+    background-color: #CA6048;
+    color: white;
+    margin-right: 71%;
+    text-align: center;
+}
+div.h2{
+    background-color: #808080;
+}
+.borde{
+    border:1px solid black;
+    width: 28em;
+    font-size: 14px;
+}
+.center{
+    text-align: center;
+}
+.cabecera{
+    margin: auto;
+}
+.imgcenter{
+    margin-left: 130%;
+    margin-right: 130%;
+}
+.titulo{
+    background-color: #C9C9C9;
+}
+.subtitulo{
+    background-color: #DDDDDD;
+}
+#nota{
+    background-color: #EEEEEE;
+}
+table{
+    background-color: white;
+    border: 1px solid black;
+    border-collapse: collapse;
+    line-height: 20px;
+}
+th{
+    border-bottom: 1px solid black;
+}
+td{
+    border-left: 1px solid black;
+}
+#pie{
+    border-top: 1px solid black;
+}
+div.boton{
+    background-color: #DDDDDD;
+    border: 3px solid #808080; /** Aplicamos el ancho, tipo y color del borde */
+    margin-right: 94%;
+    font-size: 12px;
+    border-radius: 7px;
+    padding: 5px;
+    text-align: center;
+}
+.boton a:link{
+    color: black;
+    text-transform: none;
+}
+.boton a:visited{
+    color: black;
+    text-transform: none;
+}
+.tablaclima{
+    margin: 0% 30% 0% 30%;
+}
+.fotosseccion{
+    margin: 20px;
+}
+img{
+    margin: 10px;
+}
+a:hover{
+    color: white;
+    font-size: 120%;
+    background-color: #CA6048;
+}
+footer{
+    text-transform: italic;
+    font-size: 12px;
+    text-align: right;
+}
+p::first-letter{
+    margin-left: 20px;
+    line-height: 10px;
+}
+.portada{
+    margin-left: 28%;
+    margin-right: 28%;
+}
+.bordetabla{
+    border:1px solid black;
+    width: 28em;
+    font-size: 14px;
+    margin-left: 38%;
+}
+.nombres{
+    color: #FF4040;
+}
