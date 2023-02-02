@@ -1,0 +1,58 @@
+/** Aplicado en general a todo */
+body{
+    font-size: 16px; /** Tamaño de letra */
+    margin: 10px 15%; /** Márgenes vertical y horizontal */
+    /** SINTAXIS DE MARGIN:
+    1 parámtro--> Aplica a todos los cuatro lados. Ejemplo--> margin: 1em;
+    2 parámetros --> Vertical | Horizontal. Ejemplo --> margin: 5% auto; 
+    3 parámetros --> Arriba | Horizontal | Abajo. Ejemplo --> margin: 1em auto 2em;
+    4 parámetros --> Arriba | Derecha | Abajo | Izquierda. Ejemplo --> margin: 2px 1em 0 auto;
+    */
+    background-color: #89675B; /** Color de fondo */
+    color: white; /**Color de la letra */
+    font-family: sans-serif; /**Tipo de letra */
+    text-align: justify; /** Justificar texto */
+    word-spacing: 5px; /** Separación entre palabras */
+    line-height: 30px; /** Interlineado */
+}
+/** Tamaño y centrar título */
+h1{
+    margin: 0;
+    font-size: 1.5em;
+    text-align: center;
+}
+/**Tamaño y "peso" de los párrafos */
+p{
+    font-size: 1em;
+    line-height: 200%;
+}
+/** Poner más grande la primera letra de aquellos párrafos marcados con la clase "importante" */
+p.importante::first-letter{
+    font-size: 2em;
+}
+/** Aplicamos estilo a los enlaces, que van a parecer botones */
+div a{
+    font-size: 1.5em;
+    text-transform: uppercase; /** Pasa a mayúsculas */
+    text-decoration: none;     /** Quitamos el subrayado */
+    background-color: #D6EDF4; /** Color de fondo */
+    border: 3px solid #195266; /** Aplicamos el ancho, tipo y color del borde */
+    border-radius: 7px; /** Aplicamos esquinas redondeadas al borde*/
+    padding: 5px; /** Separación entre el borde de la caja de los "botones" y las letras que hay dentro*/
+    margin: 10px; /** Separación entre "botones" */
+    color: #195266; /** Color de la letra */
+}
+/** Centramos los elementos que haya dentro de un div (en este caso los "botones") */
+div{
+    text-align: center;
+}
+/** Aplicamos estilo al pie de página */
+adress{
+    font-style: italic;
+    font-size: 0.8em;
+}
+/** Centramos la imagen de la casita en el centro */
+img{
+    display: block;
+    margin:auto;
+}
