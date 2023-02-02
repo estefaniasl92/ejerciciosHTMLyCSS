@@ -116,3 +116,7 @@ p::first-letter{
 .nombres{
     color: #FF4040;
 }
+p.primero::first-letter{
+    text-transform: capitalize;
+    font-size: 25px;
+}
