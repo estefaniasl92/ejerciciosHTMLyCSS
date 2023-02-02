@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas_3_CSS</title>
+    <style>
+        table{
+            background-color: beige;
+            border: 1px solid black;
+            border-spacing: 10px;
+            width: 300px;
+        }
+        
+        td{
+            background-color: aquamarine;
+            border: 1px solid black;
+        }
+
+        .uno{
+            empty-cells: show;
+        }
+
+        .dos{
+            empty-cells: hide;
+        }
+    </style>
+</head>
+<body>
+    <table class="uno">
+        <tr>
+            <td class="normal" width="150"></td>
+            <td class="normal" width="150">Copas</td>
+        </tr>
+        <tr>
+            <td class="normal" width="150">Bastos</td>
+            <td class="normal" width="150">Espadas</td>
+        </tr>
+        <tr>
+            <td class="normal" width="150">Oros</td>
+            <td class="normal" width="150"></td>
+        </tr>
+    </table>
+    <p></p>
+    <table class="dos">
+        <tr>
+            <td width="150"></td>
+            <td class="normal" width="150">Copas</td>
+        </tr>
+        <tr>
+            <td class="normal" width="150">Bastos</td>
+            <td class="normal" width="150">Espadas</td>
+        </tr>
+        <tr>
+            <td class="normal" width="150">Oros</td>
+            <td width="150"></td>
+        </tr>
+    </table>
+</body>
+</html>

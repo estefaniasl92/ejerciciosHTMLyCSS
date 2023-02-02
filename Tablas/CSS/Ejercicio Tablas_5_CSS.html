@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Tablas_5_CSS</title>
+    <style>
+        body{
+            background: #ffffff;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.4em;
+            font-family: tahoma, Arial, Helvetica, sans-serif;
+            font-size: 62.5%;
+        }
+        table{
+            width: 80%;
+            margin: 0;
+            background: #ffffff;
+            border: 1px solid #333333;
+            border-collapse: collapse;
+        }
+        td, th{
+            border-bottom: 1px solid #333333;
+            padding: 6px 16px;
+            text-align: left;;
+        }
+        th{
+            background: #eeeeee;
+        }
+        caption{
+            background: #E0E0E0;
+            margin: 0;
+            border: 1px solid #333333;
+            border-bottom: none;
+            padding: 6px 16px;
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Recent Major Volcanic Eruptions in the Pacific Northwest</caption>
+        <thead>
+            <tr>
+                <th class="izq">Volcano Name</th>
+                <th>Location</th>
+                <th>Last Major Eruption</th>
+                <th class="der">Type of Eruption</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="izq">Mt. Lassen</th>
+                <td>California</td>
+                <td>1914-17</td>
+                <td class="der">Explosive Eruption</td>
+            </tr>
+            <tr>
+                <th class="izq">Mt. Hood</th>
+                <td>Oregon</td>
+                <td>1790s</td>
+                <td class="der">Pyroclastic flows and Mudflows</td>
+            </tr>
+            <tr>
+                <th class="izq">Mt. St. Helens</th>
+                <td>Washington</td>
+                <td>1980</td>
+                <td class="der">Explosive Eruption</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Compiled in 2008 by Ms Jen</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
