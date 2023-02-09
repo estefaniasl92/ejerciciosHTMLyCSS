@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio F_1</title>
+    <style type="text/css">
+        body{
+            background-color: bisque;
+        }
+        h2{
+            color: brown;
+        }
+        form{
+            border: 2px solid brown;
+            width: 60%;
+            padding: 10px;
+        }
+        input[type=text]{
+            width: 70%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border: 1px solid brown;
+        }
+        .titulo, label{
+            font-size: 1.3em;
+            color: brown;
+        }
+        input[type=submit], input[type=reset]{
+            background-color: brown;
+            color: white;
+            margin: 4px 2px;
+            padding: 8px 16px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Datos de cliente</h2>
+
+    <form action="tratar-datos.html" method="get">
+        <p>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre">
+        </p>
+        <p>
+            <label for="nif">NIF:</label><br>
+            <input type="text" id="nif" name="nif">
+        </p>
+
+        <p>
+            <span class="titulo">Tipo de Habitación:</span><br>
+            <input type="radio" id="indiv" name="tipohab" value="Individual">
+            <label for="indiv">Individual</label><br>
+            <input type="radio" id="doble" name="tipohab" value="Doble" checked="checked">
+            <label for="doble">Doble</label><br>
+    </p>
+    
+
+        <p>
+            <span class="titulo">Opciones:</span><br>
+            <input type="checkbox" name="desayuno" value="desayuno">
+            <label for="desayuno">Desayuno en la habitación</label><br>
+            <input type="checkbox" name="jacuzzi" value="jacuzzi">
+            <label for="jacuzzi">Jacuzzi</label><br>
+            <input type="checkbox" name="wifi" value="wifi" checked="checked">
+            <label for="wifi">Wi-Fi</label><br>
+        </p>
+        
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    
+    </form>
+</body>
+</html>

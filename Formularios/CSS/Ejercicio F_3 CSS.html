@@ -5,8 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio F_3</title>
+    <style type="text/css">
+        body{
+            background-color: #E4FFFF;
+            font-family: sans-serif;
+            line-height: 32px;
+        }
+        h1{
+            text-align: right;
+            letter-spacing: 8px;
+            text-decoration: underline dashed 6px blue;
+        }
+        fieldset{
+            border: 2px dashed blue;
+        }
+        legend{
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            letter-spacing: 6px;
+        }
+        .pregunta{
+            text-decoration: underline;
+        }
+        .botones{
+            text-align: right;
+        }
+
+    </style>
 </head>
 <body>
+    <h1>Encuesta televisiva</h1>
     <form action="tratar-datos.html" method="get">
         <fieldset>
             <legend>Datos personales</legend>
@@ -61,9 +90,13 @@
                         <input type="checkbox" name="otros" value="otros">Otros
                     </td>
                 </tr>
+                <tr>
+                    <td class="botones" colspan="2">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Borrar">
+                    </td>
+                </tr>
             </table>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Borrar">
         </fieldset>    
     </form>
 </body>
