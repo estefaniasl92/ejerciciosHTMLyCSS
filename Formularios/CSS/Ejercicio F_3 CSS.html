@@ -17,7 +17,7 @@
             text-decoration: underline dashed 6px blue;
         }
         fieldset{
-            border: 2px dashed blue;
+            border: 3px dashed blue;
         }
         legend{
             background-color: blue;
@@ -42,12 +42,12 @@
             <table>
                 <tr>
                     <td>
-                        <span class="pregunta">Edad:</span>
-                        <input type="text" name="edad" size="4" maxlength="3" min="0" max="150"/>
+                        <label for="edad">Edad:</label>
+                        <input type="text" id="edad" name="edad" size="4" maxlength="3" min="0" max="150"/>
                     </td>
                     <td colspan="2">
-                        <span class="pregunta">Habitantes en la casa:</span>
-                        <select name="habitantes">
+                        <label for="habitantes">Habitantes en la casa:</label>
+                        <select name="habitantes" id="habitantes">
                             <option value="1" selected="selected">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>

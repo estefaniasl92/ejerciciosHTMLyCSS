@@ -17,7 +17,7 @@
             <label for="email">Correo electrónico</label>
             <input type="text" id="email" name="email" size="20" maxlength="40"><br>
             <label for="password">Contraseña</label>
-            <input type="password" id="password" name="password" size="10" maxlength="20"><br>
+            <input type="password" id="password" name="password" size="10" minlength="6"><br>
             <em>Longitud mínima 6 caracteres</em><br>
             <label for="direccion">Direccion de envío</label>
             <input type="text" id="direccion" name="direccion" size="40" maxlength="60"><br>
@@ -34,7 +34,7 @@
         <h3>Datos del pedido</h3>
         <fieldset>
             <legend>Datos del producto</legend>
-            Producto<br>
+            <label for="producto">Producto</label><br>
             <select id="producto" name="producto" multiple="si" size="5">
                 <optgroup label="Solares">
                     <option value="solar1" selected="selected">Sol-01 Solar Indice 8</option>
