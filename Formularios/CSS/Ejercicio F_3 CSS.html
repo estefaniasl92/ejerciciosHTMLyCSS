@@ -9,33 +9,43 @@
         body{
             background-color: #E4FFFF;
             font-family: sans-serif;
-            line-height: 32px;
         }
         h1{
             text-align: right;
-            letter-spacing: 8px;
-            text-decoration: underline dashed 6px blue;
+            letter-spacing: 10px;
+        }
+        span.subrayado{
+            border-bottom: blue 6px dashed;
+        }
+        span.pregunta{
+            text-decoration: underline;
+        }
+        form{
+            margin: 10px 30px;
         }
         fieldset{
-            border: 3px dashed blue;
+            border: blue 3px dashed;
+            padding: 20px;
         }
         legend{
             background-color: blue;
             color: white;
-            padding: 10px;
-            letter-spacing: 6px;
+            font-weight: bold;
+            padding: 5px 20px;
+            letter-spacing: 5px;
+            font-size: 120%;
         }
-        .pregunta{
-            text-decoration: underline;
+        td{
+            padding: 5px 10px;
         }
-        .botones{
+        td.der{
             text-align: right;
         }
 
     </style>
 </head>
 <body>
-    <h1>Encuesta televisiva</h1>
+    <h1><span class="subrayado">Encuesta televisiva</span></h1>
     <form action="tratar-datos.html" method="get">
         <fieldset>
             <legend>Datos personales</legend>
@@ -45,7 +55,7 @@
                         <label for="edad">Edad:</label>
                         <input type="text" id="edad" name="edad" size="4" maxlength="3" min="0" max="150"/>
                     </td>
-                    <td colspan="2">
+                    <td colspan="2" class="pregunta">
                         <label for="habitantes">Habitantes en la casa:</label>
                         <select name="habitantes" id="habitantes">
                             <option value="1" selected="selected">1</option>
@@ -91,7 +101,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="botones" colspan="2">
+                    <td class="der" colspan="2">      
                         <input type="submit" value="Enviar">
                         <input type="reset" value="Borrar">
                     </td>
