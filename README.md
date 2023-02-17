@@ -1,4 +1,4 @@
 # ejerciciosHTMLyCSS
-## Repositorio de Estefanía
-Repositorio para los ejercicios de Marcas
+## Repositorio de Estefanía Sastre Lois
+Repositorio para los ejercicios de Lenguaje de Marcas
 
